@@ -1,7 +1,8 @@
 @media (max-width: 869px) {
 html, body{
   overflow: hidden;  
- }
+  background-color: #2a003a;
+  }
     
     .nav-center {
     display: none;
