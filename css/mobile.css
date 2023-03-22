@@ -105,6 +105,7 @@ nav {
     bottom: 50px;
     width: 100px;
     height: 100px;
+    z-index: 90;
 }
 
 .container img{
