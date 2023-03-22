@@ -1,5 +1,9 @@
 @media (max-width: 869px) {
-.nav-center {
+*{
+  overflow: hidden;  
+ }
+    
+    .nav-center {
     display: none;
 
 }
