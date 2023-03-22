@@ -103,6 +103,8 @@ nav {
     right: 0;
     left: 0;
     bottom: -300px;
+     width: 250px;
+    height: 250px;
 }
 
 .container img{
