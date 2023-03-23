@@ -1,9 +1,6 @@
 @media (max-width: 869px) {
-html, body{
-  overflow: hidden;  
-  background-color: #2a003a;
-  }
-    
+
+
     .nav-center {
     display: none;
 
@@ -21,8 +18,8 @@ html, body{
 
 .logo-mobile {
     display: flex;
-
-
+   
+    
 }
 .nav-left {
     width: 80vw;
@@ -54,7 +51,7 @@ nav {
 
 } 
 .h1-mobile{
-    margin-top: 40px;
+    margin-top: 0px;
     display: flex;
     color: white;
     font-size: 30px;
@@ -63,15 +60,16 @@ nav {
 .pegar {
     width: 150px;
     height: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .nome1 h2{
     font-size: 60px;
+    
 
 }
 .nome2 h2{
     font-size: 60px;
-
+    margin-bottom: 20px;
 }
 .container {
     height: calc(100vh - 400px);
@@ -105,11 +103,18 @@ nav {
 }
 
 .circle2{
-    display: none;
-  }
+
+    height: 300px;
+    width: 300px;
+    z-index: 90;
+    right: 0;
+    left: 0;
+    
+}
 
 .container img{
-    width: 600px;
+    width: 100%;
+    min-height: 50%;
 }
 
 #menu-open {
@@ -190,4 +195,13 @@ nav {
     }
   }
 
+}
+
+@media (max-width: 450px){
+    .nome1 h2{
+        font-size: 45px;
+    }
+    .nome2 h2{
+        font-size: 45px;
+    }
 }
