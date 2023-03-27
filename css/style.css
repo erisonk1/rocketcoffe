@@ -106,7 +106,7 @@ ul {
 }
 
 .nome1 h2{
-    font-size: 120px;
+    font-size: 100px;
     color: var(--text-color);
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@ ul {
     z-index: 1;
 }
 .nome2 h2{
-    font-size: 120px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
